@@ -43,6 +43,33 @@ dashboard-mercado-dados-bi-powerbi/
 └── README.md
 
 
+---
+
+# Páginas do Dashboard
+
+## 1. Visão Geral
+
+Panorama geral do mercado: total de respondentes, salário médio e mediano, distribuição por senioridade e região, salário por modelo de trabalho e ranking de ferramentas mais usadas.
+
+![Visão Geral](screenshots/01-visao-geral.png)
+
+## 2. Salários
+
+Análise salarial segmentada por senioridade, cargo (top 10), região e modelo de trabalho.
+
+![Salários](screenshots/02-salarios.png)
+
+## 3. Ferramentas e Stack
+
+Ranking de ferramentas e linguagens mais usadas, cruzamento de adoção por senioridade e ranking de ferramentas de BI preferidas.
+
+![Ferramentas](screenshots/03-ferramentas.png)
+
+## 4. Insight Pessoal
+
+Conexão entre os dados analisados e minha própria transição de carreira para a área.
+
+![Insight Pessoal](screenshots/04-insight-pessoal.png)
 
 ---
 
