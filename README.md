@@ -97,8 +97,118 @@ Entre quem tem uma ferramenta de BI preferida, o Power BI domina com ampla marge
 
 ---
 
+
+
 # Autor
 
 **Alan Barion de Sá**
 Analista de Dados Júnior | Business Intelligence | Dados Financeiros
+📧 alanbarion@gmail.com 🔗 [LinkedIn](https://linkedin.com/in/alan-barion-de-sá-674a69284) 🐙 [GitHub](https://github.com/alanbarion)
+
+
+---
+
+# Data and BI Job Market Dashboard in Brazil (Power BI)
+
+Interactive Power BI dashboard analyzing the Data and BI job market in Brazil, based on the State of Data Brazil 2025-2026 survey (Data Hackers in partnership with Bain & Company).
+
+---
+
+# Objective
+
+Apply data modeling, Power Query and DAX (measures using `CALCULATE`, `ALLEXCEPT`, `AVERAGEX`, `MEDIANX` and `DIVIDE`) to a real survey from the Data and BI industry, building a dashboard that analyzes salaries, tools and the profile of professionals in the field I am transitioning into.
+
+---
+
+## Tools Used
+
+| Tool | Use |
+|---|---|
+| Power BI Desktop | Data modeling, DAX and dashboard design |
+| Power Query | Data cleaning, transformation and modeling |
+
+---
+
+# Data Source
+
+The data used is not included in this repository (third-party dataset, publicly available on Kaggle).
+
+1. Download the original dataset at: [State of Data Brazil 2025-2026 — Kaggle](https://www.kaggle.com/datasets/datahackers/state-of-data-brazil-2025-2026)
+2. Open the `.pbix` file in Power BI Desktop and point the data source to the downloaded CSV
+
+The survey contains **3,495 respondents** in total. After filtering for professionals currently employed in the field (removing records with missing role, seniority or salary range), the analysis considers **2,501 records**.
+
+---
+
+# Project Structure
+
+dashboard-mercado-dados-bi-powerbi/
+│
+├── dashboard_mercado_dados_bi.pbix
+├── screenshots/
+│   ├── 01-visao-geral.png
+│   ├── 02-salarios.png
+│   ├── 03-ferramentas.png
+│   └── 04-insight-pessoal.png
+└── README.md
+
+
+---
+
+# Dashboard Pages
+
+## 1. Overview
+
+General market overview: total respondents, average and median estimated salary, distribution by seniority and region, average salary by work model, and ranking of most used tools.
+
+![Overview](screenshots/01-visao-geral.png)
+
+## 2. Salaries
+
+Salary analysis segmented by seniority, role (top 10), region and work model.
+
+![Salaries](screenshots/02-salarios.png)
+
+## 3. Tools and Stack
+
+Ranking of most used tools and languages, adoption by seniority, and ranking of preferred BI tools.
+
+![Tools](screenshots/03-ferramentas.png)
+
+## 4. Personal Insight
+
+Connecting the analyzed data to my own career transition into the field.
+
+![Personal Insight](screenshots/04-insight-pessoal.png)
+
+---
+
+# Key Findings
+
+## 1. Salary progression by seniority
+
+Average salary grows consistently with seniority: R$ 4,152 (Junior) to R$ 14,469 (Senior), reaching R$ 20,028 for Specialist/Staff+ roles.
+
+## 2. The most common role is not the highest paid
+
+Data Analyst is the role with the most respondents (599 of 2,501), but sits at the entry level salary range. Rarer roles such as Data Architect and ML Engineer concentrate the highest average salaries.
+
+## 3. Remote work pays significantly more
+
+The average salary of fully remote workers (R$ 13,470) is nearly double that of fully in office workers (R$ 6,645).
+
+## 4. Tool adoption grows with seniority
+
+Python and SQL, the most used tools in the market, show increasing adoption by seniority (Python: 69% among Juniors, 80% among Seniors), indicating continuous technical depth throughout a career.
+
+## 5. Microsoft Power BI leads BI tool preference
+
+Among those with a preferred BI tool, Power BI leads by a wide margin over Tableau, Looker and other competitors.
+
+---
+
+# Author
+
+**Alan Barion de Sá**
+Junior Data Analyst | Business Intelligence | Financial Data
 📧 alanbarion@gmail.com 🔗 [LinkedIn](https://linkedin.com/in/alan-barion-de-sá-674a69284) 🐙 [GitHub](https://github.com/alanbarion)
