@@ -32,15 +32,17 @@ A pesquisa contém **3.495 respondentes** no total. Após filtragem para profiss
 
 # Estrutura do Projeto
 
+```
 dashboard-mercado-dados-bi-powerbi/
 │
-├── dashboard_mercado_dados_bi.pbix
+├── dashboard-mercado-dados-BI_v1.pbix
 ├── screenshots/
-│ ├── 01-visao-geral.png
-│ ├── 02-salarios.png
-│ ├── 03-ferramentas.png
-│ └── 04-insight-pessoal.png
+│   ├── 01-visao-geral.png
+│   ├── 02-salarios.png
+│   ├── 03-ferramentas.png
+│   └── 04-insight-pessoal.png
 └── README.md
+```
 
 
 ---
@@ -142,15 +144,17 @@ The survey contains **3,495 respondents** in total. After filtering for professi
 
 # Project Structure
 
+```
 dashboard-mercado-dados-bi-powerbi/
 │
-├── dashboard_mercado_dados_bi.pbix
+├── dashboard-mercado-dados-BI_v1.pbix
 ├── screenshots/
 │   ├── 01-visao-geral.png
 │   ├── 02-salarios.png
 │   ├── 03-ferramentas.png
 │   └── 04-insight-pessoal.png
 └── README.md
+```
 
 
 ---
